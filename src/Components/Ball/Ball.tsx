@@ -1,19 +1,19 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import s from './Ball.module.css';
-import {findAllInRenderedTree} from "react-dom/test-utils";
+// import { findAllInRenderedTree } from "react-dom/test-utils";
 export const Ball = () => {
 
 
 
-    return (
-        <div className={s.bar}>
+  return (
+    <div className={s.bar}>
 
-            <div className={s.ball}>
+      <div className={s.ball}>
 
-            </div>
+      </div>
 
 
-        </div>
-    );
+    </div>
+  );
 };
 
