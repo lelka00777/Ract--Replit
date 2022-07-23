@@ -6,8 +6,8 @@ import { Hart } from "./Components/Hart/Hart";
 export default function App() {
   return <div className="app">
 
+<Hart />
 
-<Lamp /> 
 
   </div>
 }
