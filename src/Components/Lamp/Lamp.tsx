@@ -19,7 +19,7 @@ export const Lamp = () => {
             <div className={`${s.lamp_item} ${s.lamp_top}`}></div>
             <div className={`${s.lamp_item} ${s.lamp_middle}`}></div>
             <div onClick={onClickHandler} className={`${s.lamp_item} ${s.lamp_bottom}`}></div>
-            {!lamp && <LampOn /> }
+            {!lamp && <LampOn /> } 
 
 
         </div>
@@ -30,8 +30,8 @@ export const Lamp = () => {
 const LampOn = () => {
 
     return (
-        <div className={`${s.lamp_item} ${s.lamp_light}`}>
-
+        <div className={`${s.lamp_item} ${s.lamp_light} `}>
+        
         </div>
 
     )

@@ -36,6 +36,7 @@ export function Counter() {
     <span className={s.bag}>💰</span>
     <span className={s.bag}>💰</span>
     <span className={s.bag}>💰</span>
+    <span className={s.bag}>💰</span>
 
   </div>
 }

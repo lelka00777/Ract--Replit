@@ -1,11 +1,11 @@
 import React from 'react';
 
-type AccordionPropsType = {
+ type AccordionPropsType = {
     titleValue:string
     collapsed:boolean
 }
 
-const Accordion = (props:AccordionPropsType) => {
+export const Accordion = (props: AccordionPropsType) => {
     console.log("Accordion rendering")
 
     return  <div>
@@ -35,4 +35,3 @@ function AccordionBody() {
  )
 }
 
-export default Accordion;
